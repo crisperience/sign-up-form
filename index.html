@@ -4,7 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <link rel="stylesheet" href="style.css" />
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="image-section"></div>
+      <div class="form-wrapper">
+        <h1>Sign Up</h1>
+        <form>
+          <div class="input-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" required />
+          </div>
+
+          <div class="input-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+
+          <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+
+          <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" required />
+          </div>
+
+          <button type="submit">Create Account</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
